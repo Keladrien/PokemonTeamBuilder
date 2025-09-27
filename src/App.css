@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(46, 46, 46);
+}
+
+.navigation a {
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:visited {
+  color: white;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.navigation div {
+  padding: 2rem;
+}
+
+nav div span {
+  color: white;
+  margin-right: 15px;
+}
+
+body {
+  background-color: rgb(61, 61, 61);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+  margin: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+p {
+  font-size: larger;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 20px;
+}
+.homeCardDisplay {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.homeCard {
+  display: flex;
+
+  flex-direction: column;
+  border: solid white;
+  border-radius: 4rem;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+.homeCard img {
+  max-width: 200px;
+  min-width: 200px;
+  margin: auto;
+}
+
+.homeCard h2 {
+  font-size: 3rem;
+}
+
+.homeCard p {
+  font-size: 2rem;
+}
+
+.statDisplay {
+  border: solid white;
+}
+
+.statDisplay td {
+  border-bottom: solid white;
+  padding: 10px;
+  color: white;
+}
+
+.green {
+  accent-color: green;
+}
+
+.yellow {
+  accent-color: yellow;
+}
+
+.red {
+  accent-color: red;
+}
+
+.Info h1 {
+  text-align: center;
+}
+
+.Info .Detail {
+  display: flex;
+  align-items: center;
+}
+
+.Info .Detail img {
+  width: 50%;
+}
+
+.Info .Detail div {
+  width: 50%;
+}
+
+.Info .Detail div tr td {
+  color: white;
+}
+
+.Info .Detail div tr td a {
+  color: white;
+  text-decoration: none;
+}
+
+.Info .Detail div tr td a:hover {
+  text-decoration: underline;
+}
+
+.Info .Detail div table {
+  border: solid white;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.Info .Detail div table td {
+  border-bottom: solid white;
+  border-left: solid white;
+  padding: 15px;
+  color: white;
+}
+
+.stats {
+  width: 30%;
+  margin: auto;
+}
+
+.regionSelector {
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: rgb(138, 136, 136);
+  color: white;
+  font-size: large;
+}
+
+.regionSelectorDiv {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.region {
+  text-align: center;
+}
+
+.addBtn {
+  width: 30%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 1rem;
+  margin: 10px auto;
+}
+
+.addBtn:hover {
+  background-color: rgb(1, 68, 1);
+}
+
+.deleteBtn {
+  width: 30%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 1rem;
+  margin: 10px auto;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(131, 0, 0);
+}
+
+.numberInTeam {
+  color: rgb(0, 255, 21);
+}
+
+.teamFull {
+  color: red;
+}
+
+form {
+  margin: auto;
+  max-width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+form button[type="submit"] {
+  margin: 10px auto;
+  justify-self: center;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+form button[type="submit"]:hover {
+  background-color: rgb(177, 175, 175);
+}
+
+form span {
+  text-align: right;
+  font-size: small;
+  color: red;
+}
